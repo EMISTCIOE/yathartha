@@ -10,7 +10,7 @@ export default {
       {
         "theme" : "#FFA500",
         "theme-alt" : "#3406b3",
-        "theme-h" : "#FFA5007"
+        "theme-h" : "#FFA500cc"
       },
       fontFamily : 
       {
