@@ -29,7 +29,8 @@ const Navbar : React.FC = () => {
         }
     }
 
-    useEffect(() => {
+    useEffect(() => {   
+        handleResize();
         window.addEventListener("resize", handleResize)
     },[])
 
@@ -52,7 +53,7 @@ const Navbar : React.FC = () => {
 const NavLinks : React.FC = () => {
 
     return (
-        <div className="flex lg:flex-row flex-col justify-evenly items-center w-[70%]">
+        <div className="flex lg:flex-row flex-col justify-evenly items-center w-[60%]">
             {
                 _NavItems.map(({item, url})=>
                 {
@@ -78,7 +79,7 @@ const Socials : React.FC = () => {
 
 const NavItem : React.FC<INavItem> = ({item, url} : INavItem) => {
     return (
-        <a href={url} className="p-2 lg:mx-2 my-2 font-medium text-white transition duration-200 hover:scale-[105%] hover:text-theme">{item}</a>
+        <a href={url} className="m-2 font-medium text-white transition duration-200 hover:scale-[105%] hover:text-theme">{item}</a>
     )
 }
 
