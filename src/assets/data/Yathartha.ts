@@ -1,6 +1,7 @@
 export const _EventDetails = {
     name : "Yathartha",
-    mainquote : "** placeholder for main event quote **",
+    tyoe : "TechFest 2080",
+    mainquote : "Recognize Reality, Fabricate Future",
     theme : ["environment", "technology", "AI/ML", "...."],
 };
 
@@ -14,8 +15,24 @@ export const _NavItems = [
         url : "/events"
     },
     {
-        item : "Members",
-        url : "/members"
+        item : "Workshops",
+        url : "/workshops"
+    },
+    {
+        item : "Competitions",
+        url : "/competitions"
+    },
+    {
+        item : "Speakers",
+        url : "/speakers"
+    },
+    {
+        item : "Partners",
+        url : "/partners"
+    },
+    {
+        item : "Contact Us",
+        url : "/contactus"
     }
 ];
 
@@ -30,10 +47,6 @@ export const _SocialLinks = [
     },
     {
         media : "Linkedin",
-        url : "#"
-    },
-    {
-        media : "Twitter",
         url : "#"
     }
 ];

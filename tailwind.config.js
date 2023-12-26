@@ -8,9 +8,12 @@ export default {
     extend: {
       colors : 
       {
-        "theme" : "#FFA500",
-        "theme-alt" : "#3406b3",
-        "theme-h" : "#FFA500cc"
+        "theme" : "#FF9F1C",
+        "theme-green" : "#95B46A",
+        "theme-black" : "#000500",
+        "theme-white" : "#ffffff",
+        "theme-red" : "#8B1E3F",
+        "theme-h" : "#FF9F1C77"
       },
       fontFamily : 
       {

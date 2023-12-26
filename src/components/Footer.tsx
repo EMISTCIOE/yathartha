@@ -1,12 +1,8 @@
 import React from "react";
 import Logo from "../assets/logo.jpg";
 import "../styles/footer.css"
-import {
-  FaLinkedin,
-  FaInstagram,
-  FaFacebook,
-  FaEnvelope,
-} from "react-icons/fa";
+import { Socials } from "./Navbar";
+
 import { FaMobileScreen, FaRegEnvelope, FaLocationDot } from "react-icons/fa6";
 
 const Footer = () => {
@@ -51,21 +47,10 @@ const Footer = () => {
       </div>
       <div className="social">
         <div className="social-title">
-        <h2>Connect with us on:</h2>
+          <h2>Connect with us on:</h2>
         </div>
-        <div className="social-links">
-          <div className="instagram">
-            <FaInstagram />
-          </div>
-          <div className="linkedin">
-            <FaLinkedin />
-          </div>
-          <div className="facebook">
-            <FaFacebook />
-          </div>
-          <div className="mail">
-            <FaEnvelope />
-          </div>
+        <div className="text-4xl mx-auto w-[50%] my-4">
+          <Socials />
         </div>
         <div className="copyright">
           Copyright &copy; {currentYear} | Yathartha | All rights reserved.
