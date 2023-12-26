@@ -3,6 +3,11 @@ export const _EventDetails = {
     tyoe : "TechFest 2080",
     mainquote : "Recognize Reality, Fabricate Future",
     theme : ["environment", "technology", "AI/ML", "...."],
+    contact : {
+        phone : "+977 984534343, +977 988786876",
+        email : "techfest@tcioe.edu.np"
+    },
+    location : "IOE Thapathali Campus, Kathmandu, Nepal"
 };
 
 export const _NavItems = [
@@ -29,6 +34,21 @@ export const _NavItems = [
     {
         item : "Partners",
         url : "/partners"
+    },
+    {
+        item : "Contact Us",
+        url : "/contactus"
+    }
+];
+
+export const _QuickLinks = [
+    {
+        item: "Home",
+        url : "/home"
+    },
+    {
+        item : "Events",
+        url : "/events"
     },
     {
         item : "Contact Us",
