@@ -1,4 +1,4 @@
-import React from "react";
+
 import Logo from "../assets/logo.jpg";
 import "../styles/footer.css"
 import { Socials } from "./Navbar";
