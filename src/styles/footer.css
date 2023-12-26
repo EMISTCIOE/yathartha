@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  
+  .footer {
+      padding: 30px;
+      background-color: #1d1a1a;
+    }
+    
+    .top-footer {
+      color: white;
+      display: flex;
+      justify-content: space-between;
+    }
+    .motto h2{
+      padding-top:10px;
+      font-size: 14px;
+    }
+    
+    
+    
+    
+    .motto h1 {
+      font-size: 2rem;
+      font-weight: bold;
+    }
+    
+    .quick-links,
+    .contact-us {
+      margin-bottom: 30px;
+    }
+    
+    .quick-links h1,
+    .contact-us h1 {
+      font-size: 1.2rem;
+      font-weight: bold;
+    }
+    
+    .links {
+      list-style: none;
+      padding: 0;
+    }
+    
+    .links li {
+      padding-top: 10px;
+      cursor: pointer;
+    }
+    
+    .mobile,
+    .email,
+    .location {
+      display: flex;
+      align-items: center;
+      margin-top: 10px;
+    }
+    
+    .mobile span,
+    .email span,
+    .location span {
+      margin-left: 5px;
+    }
+    
+    .social {
+      color: white;
+    }
+    
+    .social-title{
+      font-size: 12px;
+      text-align: center;
+    }
+    
+    .social-links {
+      display: flex;
+      justify-content: center;
+      margin-top: 10px;
+    }
+    
+    .social-links div {
+      font-size: 2rem;
+      margin: 0 10px;
+      cursor: pointer;
+    }
+    
+    .copyright {
+      text-align: center;
+      padding-top: 20px;
+    }
+    
+    .footer-logo{
+      height: 150px;
+      width: 200px;
+      display: none;
+    }
+    @media (max-width: 700px) {
+      .footer {
+        padding: 20px; 
+        background-color: #1d1a1a;
+      }
+      .top-footer {
+        color: white;
+        flex-direction: column; 
+      }
+      .motto h2 {
+        font-size: 14px;
+        padding-bottom: 20px;
+      }
+      
+      .motto h1 {
+        font-size: 1.5rem; 
+        font-weight: bold;
+      }
+      
+      .quick-links,
+      .contact-us {
+        margin-bottom: 20px; 
+      }
+      
+      .quick-links h1,
+      .contact-us h1 {
+        font-size: 1rem; 
+      }
+      
+      .links li {
+        padding-top: 5px; 
+        cursor: pointer;
+      }
+      
+      .mobile,
+      .email,
+      .location {
+        
+        align-items: center; 
+        margin-top: 5px; 
+      }
+      
+      .mobile span,
+      .email span,
+      .location span {
+        margin-left: 10px; 
+        margin-top: 5px; 
+      }
+      
+      .social-title {
+        font-size: 10px; 
+        text-align: center;
+      }
+      
+      .social-links {
+        margin-top: 5px; 
+      }
+      
+      .social-links div {
+        font-size: 1.5rem; 
+        margin: 0 5px; 
+        cursor: pointer;
+      }
+      
+      .copyright {
+        padding-top: 10px; 
+      }
+      
+      
+      
+      
+    }
