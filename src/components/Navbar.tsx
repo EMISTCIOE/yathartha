@@ -35,7 +35,7 @@ const Navbar : React.FC = () => {
 
   return (
       <>
-        <button className="lg:hidden z-20 absolute top-8 right-8 text-4xl hover:text-theme-red text-white" onClick={()=>setIsNavActive(!isNavActive)}>{isNavActive?<IoClose />:<IoMenu />}</button>
+        <button className="lg:hidden z-20 fixed top-8 right-8 text-4xl hover:text-theme-red text-white" onClick={()=>setIsNavActive(!isNavActive)}>{isNavActive?<IoClose />:<IoMenu />}</button>
         {
             <nav className={(isMobActive?(isNavActive?"flex":"hidden"):"flex") + " lg:flex-row flex-col justify-evenly items-center w-[100%] fixed z-10 bg-theme-black lg:h-[5rem] h-[100vh]"}>
                 <img src={Logo} className="lg:h-[100%] h-[10%]"/>
