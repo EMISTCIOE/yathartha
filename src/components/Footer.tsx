@@ -1,59 +1,56 @@
-
 import Logo from "../assets/logo.jpg";
 import "../styles/footer.css"
 import { Socials } from "./Navbar";
+import { _EventDetails, _QuickLinks } from "../assets/data/Yathartha";
 
 import { FaMobileScreen, FaRegEnvelope, FaLocationDot } from "react-icons/fa6";
 
-const Footer = () => {
+const Footer : React.FC = () => {
   const currentYear = new Date().getFullYear();
   return (
-    <div className="footer">
-      <div className="top-footer">
-        <div className="motto">
-            <img src={Logo} alt="Logo" className="footer-logo"/>
-            <h1>YATHARTHA</h1>
-          
-          <h2>Connecting Engineers</h2>
+    <div className="lg:px-16 px-2 p-8 bg-theme-black text-theme-white text-center">
+      <div className="flex md:flex-row flex-col justify-evenly items-center md:items-start min-h-[10rem]">
+        <div className="flex flex-col justify-evenly items-center m-2">
+          <img src={Logo} alt="Logo" className="w-[2rem]"/>
+          <h1 className="text-theme text-4xl font-bold">{_EventDetails.name}</h1>
+          <span>{_EventDetails.mainquote}</span>
         </div>
-        <div className="quick-links">
-          <h1>Quick Links</h1>
-          <ul className="links">
-            <li>Home</li>
-            <li>Events</li>
-            <li>Projects</li>
-            <li>About Us</li>
-            <li>Contact Us</li>
+        <div className="flex flex-col justify-evenly items-center m-2 md:items-start">
+          <h1 className="text-theme-red text-xl font-bold">Quick Links</h1>
+          <ul className="flex flex-col md:items-start justify-evenly items-center">
+            {
+              _QuickLinks.map(({item, url})=>
+              {
+                return <li><a href={url}>{item}</a></li>
+              })
+            }
           </ul>
         </div>
-        <div className="contact-us">
-          <h1>Contact Us</h1>
-
-          <div className="mobile">
+        <div className="flex flex-col justify-evenly items-center m-2 text-sm md:items-start">
+          <h1 className="text-theme-red text-xl font-bold">Contact Us</h1>
+          <div className="flex items-center">
             <FaMobileScreen />
-            <span>+977 984534343, +977 988786876</span>
+            <span className="m-2">{_EventDetails.contact.phone}</span>
           </div>
 
-          <div className="email">
+          <div className="flex items-center">
             <FaRegEnvelope />
-            <span>techfest@tcioe.edu.np</span>
+            <a href="mainto:techfest@tcioe.edu.np" className="m-2">{_EventDetails.contact.email}</a>
           </div>
 
-          <div className="location">
+          <div className="flex items-center">
             <FaLocationDot />
-            <span>IOE Thapathali Campus, Kathmandu, Nepal</span>
+            <span className="m-2">{_EventDetails.location}</span>
           </div>
         </div>
       </div>
-      <div className="social">
-        <div className="social-title">
-          <h2>Connect with us on:</h2>
-        </div>
-        <div className="text-4xl mx-auto w-[50%] my-4">
+      <div className="text-theme-white text-center">
+        <span className="text-xl text-theme-red font-bold">Connect with us on:</span>
+        <div className="text-4xl mx-auto w-[50%] my-2">
           <Socials />
         </div>
-        <div className="copyright">
-          Copyright &copy; {currentYear} | Yathartha | All rights reserved.
+        <div className="m-4 font-light">
+          Copyright &copy; {currentYear} | <span className="text-theme font-bold">{_EventDetails.name}</span> | All rights reserved.
         </div>
       </div>
     </div>
