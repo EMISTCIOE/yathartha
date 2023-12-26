@@ -1,13 +1,14 @@
 export const _EventDetails = {
     name : "Yathartha",
-    tyoe : "TechFest 2080",
+    type : "TechFest 2080",
     mainquote : "Recognize Reality, Fabricate Future",
     theme : ["environment", "technology", "AI/ML", "...."],
     contact : {
         phone : "+977 984534343, +977 988786876",
         email : "techfest@tcioe.edu.np"
     },
-    location : "IOE Thapathali Campus, Kathmandu, Nepal"
+    location : "IOE Thapathali Campus, Kathmandu, Nepal",
+    date : "Magh 11 & 12"
 };
 
 export const _NavItems = [

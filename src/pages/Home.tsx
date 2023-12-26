@@ -1,18 +1,18 @@
-import {  _EventDetails } from "../assets/data/Yathartha.ts" 
+import {  _EventDetails } from "../assets/data/Yathartha.ts" ;
+import CountDown from "../components/CountDown.tsx";
 
-const Home = () => {
+const Home : React.FC = () => {
     return (
-        <main className="flex flex-col justify-evenly items-center min-h-[100vh] w-[100%] bg-theme">
-            <h1 className="text-theme-alt text-6xl font-bold uppercase font-roboto-slab">{_EventDetails.name}</h1>
-            <p className="text-white text-xl font-light font-archivo-narrow">{_EventDetails.mainquote}</p>
-            <ul className="flex flex-row flex-wrap justify-evenly items-center list-none w-[100%] text-white font-bold">
-            {
-                _EventDetails.theme.map((item : string)=>
-                {
-                return <li className="bg-theme-alt p-4 min-w-[16rem] min-h-[10rem] flex flex-row justify-evenly items-center text-2xl uppercase rounded-md">{item}</li>
-                })
-            }
-            </ul>
+        <main className="flex flex-col justify-evenly items-center min-h-[100vh] w-[100%] bg-theme-black-alt">
+            <div className="flex flex-col justify-evenly md:items-start items-center md:w-[80%] w-[100%] mt-[10%]">
+                <h1 className="text-theme-white text-7xl font-bold my-4">{_EventDetails.name}</h1>
+                <h2 className="text-theme-white text-5xl">{_EventDetails.type}</h2>
+                <span className="text-theme-white text-2xl tracking-wider my-2">{_EventDetails.mainquote}</span>
+            </div>
+            <div className="flex flex-col justify-evenly items-center">
+                <h1 className="text-theme-white text-3xl ">{_EventDetails.date}</h1>
+                <CountDown />
+            </div>
         </main>
     )
 }
