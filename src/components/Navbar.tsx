@@ -17,7 +17,7 @@ interface INavItem
 
 const Navbar : React.FC = () => {
     const [isMobActive, setIsMobActive] = useState<boolean>(false);
-    const [isNavActive, setIsNavActive] = useState<boolean>(true);
+    const [isNavActive, setIsNavActive] = useState<boolean>(false);
 
     const handleResize = () => {
         if(window.innerWidth <1024){
