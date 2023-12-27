@@ -12,7 +12,7 @@ const CountDown : React.FC = () => {
         let countDownDate = new Date("Jan 25, 2024 12:00:00").getTime();
 
         let x = setInterval(()=> {
-        let now = new Date().getTime();
+        let now = new Date().getTime(); 
             
         let distance = countDownDate - now;
             
