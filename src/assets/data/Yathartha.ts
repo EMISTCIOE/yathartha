@@ -12,6 +12,25 @@ export const _EventDetails = {
     about : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate consequuntur perspiciatis explicabo repudiandae quidem rem voluptatem nobis. Nihil totam voluptate aliquid aspernatur deleniti assumenda porro doloremque impedit tempora perspiciatis sint, maxime vitae cupiditate tenetur possimus cum natus eum. Officiis quasi necessitatibus eius dolorem maxime quod deleniti, minima quam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque eveniet cum dolorem sint harum quasi in quo, inventore ab iste eos illo commodi quas delectus quaerat nemo sapiente! Debitis illo voluptates quibusdam?"
 };
 
+export const _EventTarget = [
+    {
+        title : "Total Projects",
+        count : 50
+    },
+    {
+        title : "Expected Participants",
+        count : 10000
+    },
+    {
+        title : "Competitions",
+        count : 10
+    },
+    {
+        title : "Total Visistors",
+        count : 50000
+    }
+];
+
 export const _NavItems = [
     {
         item : "Home",
