@@ -1,6 +1,4 @@
-import { isArray } from "util"
 import { _EventSponsors } from "../assets/data/Yathartha"
-import { useState } from "react"
 
 interface ISponsorItem {
     type : string,
