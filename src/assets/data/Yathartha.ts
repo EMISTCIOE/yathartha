@@ -31,6 +31,21 @@ export const _EventTarget = [
     }
 ];
 
+export const _EventSponsors = [
+    {
+        type : "Title Sponsor",
+        url : ["../src/assets/logo.jpg"]
+    },
+    {
+        type : "Powered By",
+        url : ["../src/assets/logo.jpg"]
+    },
+    {
+        type : "Community Partners",
+        url : ["../src/assets/logo.jpg", "../src/assets/logo.jpg", "../src/assets/logo.jpg", "../src/assets/logo.jpg"]
+    }
+];
+
 export const _NavItems = [
     {
         item : "Home",
