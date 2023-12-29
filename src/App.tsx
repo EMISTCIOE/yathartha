@@ -1,17 +1,25 @@
+import { Routes, Route } from 'react-router-dom';
 import './App.css';
 import Footer from './components/Footer.tsx';
 import Navbar from './components/Navbar.tsx';
-import Home from './pages/Home.tsx';
-import About from './pages/About.tsx';
-import Sponsor from './pages/Sponsor.tsx';
+import Landing from './pages/Landing.tsx';
+import NotFound from './pages/NotFound.tsx';
+import Events from './pages/Events.tsx';
+import Workshops from './pages/Workshops.tsx';
+import Competitions from './pages/Competitions.tsx';
 
 const App : React.FC = () => {
   return (
     <>
     <Navbar />
-    <Home />
-    <About />
-    <Sponsor />
+    <Routes>
+      <Route path="/home" element={<Landing />} />
+      <Route path="/events" element={<Events />} />
+      <Route path="/workshops" element={<Workshops />} />
+      <Route path="/competitions" element={<Competitions />} />
+      <Route path="/" element={<Landing />} />
+      <Route path="/*" element={<NotFound />} />
+    </Routes>
     <Footer />
     </>
   )
