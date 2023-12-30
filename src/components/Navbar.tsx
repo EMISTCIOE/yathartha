@@ -18,6 +18,7 @@ interface INavItem
 const Navbar : React.FC = () => {
     const [isMobActive, setIsMobActive] = useState<boolean>(false);
     const [isNavActive, setIsNavActive] = useState<boolean>(false);
+    const [scrollActive, setScrollActive] = useState<boolean>(false);
 
     const handleResize = () => {
         if(window.innerWidth <1024){
@@ -31,14 +32,31 @@ const Navbar : React.FC = () => {
 
     useEffect(() => {   
         handleResize();
-        window.addEventListener("resize", handleResize)
+        window.addEventListener("resize", handleResize);
+
+        const handleScroll = () => {
+            if(window.scrollY < 50)
+            {
+                setScrollActive(false);
+            }
+            else if(window.scrollY > 10)
+            {
+                setScrollActive(true);
+            }
+        };
+
+        window.addEventListener('scroll', handleScroll);
+
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+        };
     },[])
 
   return (
       <>
         <button className="lg:hidden z-20 fixed top-8 right-8 text-4xl hover:text-theme-red text-white" onClick={()=>setIsNavActive(!isNavActive)}>{isNavActive?<IoClose />:<IoMenu />}</button>
         {
-            <nav className={(isMobActive?(isNavActive?"flex":"hidden"):"flex") + " lg:flex-row flex-col justify-evenly items-center w-[100%] fixed z-10 bg-theme-black lg:h-[5rem] h-[100vh]"}>
+            <nav className={(isMobActive?(isNavActive?"flex":"hidden"):"flex") + " lg:flex-row flex-col justify-evenly items-center w-[100%] fixed z-10 lg:h-[5rem] h-[100vh] " + (scrollActive?" bg-theme-black":"")}>
                 <a href="/home" className="lg:h-[100%] h-[10%]"><img src={Logo} className="h-[100%]" /></a>
                 <NavLinks />
                 <div className="lg:w-[10%] w-[100%] lg:text-2xl text-4xl text-theme-white">
