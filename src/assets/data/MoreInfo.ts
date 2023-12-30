@@ -90,3 +90,80 @@ export const _Competitions = [
         description : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet illo, explicabo voluptatum exercitationem sint aspernatur, dolore molestiae, tempora tenetur nisi maiores? Magni fugiat cupiditate similique quo aut rerum adipisci tempore atque non?"
     }
 ];
+
+export const _Speakers = [
+    {
+        name : "Killer Cat",
+        image : "https://img.freepik.com/free-psd/3d-illustration-person-with-sunglasses_23-2149436188.jpg",
+        field : "Meo Mewo"
+    },
+    {
+        name : "Underdog",
+        image : "https://img.freepik.com/free-psd/3d-illustration-person-with-sunglasses_23-2149436188.jpg",
+        field : "New world"
+    },
+    {
+        name : "Hearthless",
+        image : "https://img.freepik.com/free-psd/3d-illustration-person-with-sunglasses_23-2149436188.jpg",
+        field : "Find some"
+    },
+    {
+        name : "Costly Man",
+        image : "https://img.freepik.com/free-psd/3d-illustration-person-with-sunglasses_23-2149436188.jpg",
+        field : "Pay price"
+    },
+    {
+        name : "Ruther Potiel",
+        image : "https://img.freepik.com/free-psd/3d-illustration-person-with-sunglasses_23-2149436188.jpg",
+        field : "AI/ML"
+    },
+    {
+        name : "Binary Bin",
+        image : "https://img.freepik.com/free-psd/3d-illustration-person-with-sunglasses_23-2149436188.jpg",
+        field : "0/1"
+    },
+    {
+        name : "Dumb Me",
+        image : "https://img.freepik.com/free-psd/3d-illustration-person-with-sunglasses_23-2149436188.jpg",
+        field : "???"
+    },
+    {
+        name : "Singing Ramp",
+        image : "https://img.freepik.com/free-psd/3d-illustration-person-with-sunglasses_23-2149436188.jpg",
+        field : "Hear Out"
+    }    
+];
+
+export const _Partners = [
+    {
+        rank : "Legend",
+        name : "YOU",
+        image : "https://compliancecalendar.s3.ap-south-1.amazonaws.com/assets/ogimage/partnership-firm-registration.jpg"
+    },
+    {
+        rank : "Platinum",
+        name : "CG Motors",
+        image : "https://compliancecalendar.s3.ap-south-1.amazonaws.com/assets/ogimage/partnership-firm-registration.jpg"
+    },
+    {
+        rank : "Bronze",
+        name : "Programiz",
+        image : "https://compliancecalendar.s3.ap-south-1.amazonaws.com/assets/ogimage/partnership-firm-registration.jpg"
+    },
+    {
+        rank : "Gold",
+        name : "Shireto",
+        image : "https://compliancecalendar.s3.ap-south-1.amazonaws.com/assets/ogimage/partnership-firm-registration.jpg"
+    },
+    {
+        rank : "Platinum",
+        name : "NIC Asia",
+        image : "https://compliancecalendar.s3.ap-south-1.amazonaws.com/assets/ogimage/partnership-firm-registration.jpg"
+    },
+    {
+        rank : "Silver",
+        name : "Segway Inc.",
+        image : "https://compliancecalendar.s3.ap-south-1.amazonaws.com/assets/ogimage/partnership-firm-registration.jpg"
+    }
+
+]
