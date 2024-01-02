@@ -1,5 +1,15 @@
 import "../styles/schedule.css";
-const eventsData = [
+
+interface Event {
+  id: number;
+  day: number;
+  time: string;
+  title: string;
+  description: string[];
+  setting: string;
+}
+
+const eventsData:Event[] = [
   {
     id: 1,
     day: 1,
@@ -46,8 +56,9 @@ const eventsData = [
   },
 ];
 
-const groupEventsByDay = (events) => {
-  const groupedEvents = {};
+
+const groupEventsByDay = (events: Event[]) => {
+  const groupedEvents: { [day: number]: Event[] } = {};
   events.forEach((event) => {
     if (!groupedEvents[event.day]) {
       groupedEvents[event.day] = [];
@@ -57,8 +68,9 @@ const groupEventsByDay = (events) => {
   return groupedEvents;
 };
 
-const Schedule = () => {
+const Schedule: React.FC = () => {
   const groupedEvents = groupEventsByDay(eventsData);
+
 
   return (
     <>
@@ -96,3 +108,4 @@ const Schedule = () => {
 };
 
 export default Schedule;
+
