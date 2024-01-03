@@ -9,7 +9,7 @@ export const _EventDetails = {
     },
     location : "IOE Thapathali Campus, Kathmandu, Nepal",
     date : "Magh 11 & 12",
-    about : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate consequuntur perspiciatis explicabo repudiandae quidem rem voluptatem nobis. Nihil totam voluptate aliquid aspernatur deleniti assumenda porro doloremque impedit tempora perspiciatis sint, maxime vitae cupiditate tenetur possimus cum natus eum. Officiis quasi necessitatibus eius dolorem maxime quod deleniti, minima quam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque eveniet cum dolorem sint harum quasi in quo, inventore ab iste eos illo commodi quas delectus quaerat nemo sapiente! Debitis illo voluptates quibusdam?"
+    about : "Yathartha is a big tech fest put together by student groups from Thapathali Campus, with the FSU coordinating everything. It's like a huge stage where young thinkers come together to turn their cool ideas into reality. Imagine the world of school lessons where they talk a lot about how things work. At Yathartha, we're taking a break from the usual routine and getting into the fun side of doing things with your hands. It's a chance to go beyond just reading and really experience how vision can be turned to reality"
 };
 
 export const _EventTarget = [

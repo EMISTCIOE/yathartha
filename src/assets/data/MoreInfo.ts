@@ -1,3 +1,119 @@
+export const _PreEvents = [
+    {
+        thumbnail : "",
+        organizer : "AMSEIN",
+        events : [
+            "Workshop on Ansys",
+            "3D Design Competition",
+            "Ideathone",
+            "Tech Talk"
+        ]
+    },
+    {
+        thumbnail : "",
+        organizer : "ASIS",
+        events : [
+            "Design Competition",
+            "Ramed Earth WorkShop",
+            "Model Making",
+            "Live Art Competition",
+            "Magazine Launch",
+            "Symposium/Talk Show"
+        ]
+    },
+    {
+        thumbnail : "",
+        organizer : "CESS",
+        events : [
+            "Photography",
+            "Talk Show",
+            "Speech Competition (त्रि . वि को यथा र्थ)"
+        ]
+    },
+    {
+        thumbnail : "",
+        organizer : "ECAST",
+        events : [
+            "Meme Competition",
+            "Talk Show",
+            "Code Masters",
+            "PUBG (Initial - Top - Five)"
+        ]
+    },
+    {
+        thumbnail : "",
+        organizer : "SOIES",
+        events : [
+            "Talk Show",
+            "Workshop on Public Speaking",
+            "Egronomic Design Cmopetition",
+            "Bagchal + Chungi",
+            "Olympiad"
+        ]
+    }
+];
+
+export const _MainEvents = [
+    {
+        thumbnail : "",
+        organizer : "AMSEIN",
+        events : [
+            "Junk Art Competition",
+            "Auto Section Demo Tango-Charlie",
+            "Go Cart Demonstraction (Photo Booth)",
+            "Treasure Hunt",
+            "Model Demonstration Auto-Mech",
+            "3D Model Competition",
+            "CAR Demo (Blue + Classic)"
+        ]
+    },
+    {
+        thumbnail : "",
+        organizer : "ASIS",
+        events : [
+            "Thesis Echibition",
+            "Student Work Display",
+            "Model Display",
+            "Pottery"
+        ]
+    },
+    {
+        thumbnail : "",
+        organizer : "CESS",
+        events : [
+            "Model Competition",
+            "Paper Bridge",
+            "Mixed Design",
+            "Shake Table Competition",
+            "Demonstration of Brick Bones in Wall"
+        ]
+    },
+    {
+        thumbnail : "",
+        organizer : "ECAST",
+        events : [
+            "PUBG Competition",
+            "Model Competition",
+            "Coding Competition"
+        ]
+    },
+    {
+        thumbnail : "",
+        organizer : "RAC",
+        events : [
+            "Robot War",
+            "Robo Soccer"
+        ]
+    },
+    {
+        thumbnail : "",
+        organizer : "SOIES",
+        events : [
+            "4th Year Project Demo"
+        ]
+    }
+];
+
 export const _Events = [
     {
         title : "Grand Coding Prix",
