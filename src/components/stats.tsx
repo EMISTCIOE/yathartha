@@ -31,7 +31,7 @@ const Stats = () => {
   }, []);
 
   return (
-    <div className="bg-theme-red flex flex-row justify-around p-8 items-center flex-wrap">
+    <div className="bg-theme-red flex flex-row justify-around p-6 items-center flex-wrap">
         {
           _EventTarget.map(({title, count}, ind)=>
           {
@@ -44,8 +44,8 @@ const Stats = () => {
 
 const StatsItem : React.FC<IStatsItem> = ({title, count, currCount}) => {
   return (
-    <div className="rounded-xl p-2 my-8 shadow-[inset_5px_5px_10px_#641E3F,inset_-5px_-5px_10px_#A21E3F] sm:flex-1 sm:m-2 m-8 w-[100%]">
-      <div className="m-8 text-center">
+    <div className="rounded-xl p-2 shadow-[inset_5px_5px_10px_#641E3F,inset_-5px_-5px_10px_#A21E3F] sm:flex-1 sm:m-4 m-6 w-[100%]">
+      <div className="xl:m-8 m-4 text-center">
             <h2 className="text-xl font-bold text-theme-white">{title}</h2>
             <p className="text-theme text-4xl font-bold m-4">{Math.min(currCount, count).toFixed(0)}<sup>+</sup></p>
       </div>
