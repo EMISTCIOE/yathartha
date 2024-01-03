@@ -23,8 +23,6 @@ const Stats = () => {
       }
       );
     }, 50);
-
-    // Clear intervals on component unmount
     return () => {
       clearInterval(targetInterval);
     };
