@@ -5,7 +5,7 @@ import Stats from '../components/stats';
 const About : React.FC = () => {
   return (
     <section className="min-h-[100vh] flex flex-col justify-evenly items-center bg-theme-black-alt w-[100%]">
-        <div className="flex flex-col w-[100%] justify-evenly items-center">
+        <div className="flex flex-col w-[100%] justify-evenly items-center mt-4">
             <h1 className="text-theme text-4xl font-bold">{"About " + _EventDetails.name + " TechFest"} </h1>
             <hr className="w-[20rem] border-2 border-theme-green rounded-xl m-8"/>
         </div>
