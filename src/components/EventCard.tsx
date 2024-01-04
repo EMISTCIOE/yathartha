@@ -1,26 +1,32 @@
-import { Link } from "react-router-dom"
+import { Link } from "react-router-dom";
+import { IoIosArrowForward } from "react-icons/io";
+
 
 interface IEventCard {
-    title : string,
-    date? : string,
-    duration? : string,
-    thumbnail : string,
-    description : string
+  thumbnail : string,
+  organizer : string,
+  events : string[]
 };
 
-const EventCard : React.FC<IEventCard> = ({title, date, duration, thumbnail, description}) => {
+const EventCard : React.FC<IEventCard> = ({thumbnail, organizer, events}) => 
+{
   return (
-    <div className="flex flex-row justify-evenly items-center rounded-sm  m-6 lg:w-[45%] w-[100%] h-[20rem] backdrop-blur-xl bg-[#ffffff09] shadow-sm shadow-[#fff4]">
-        <div className="w-[20rem]">
-            <img src={thumbnail} className="w-[100%]" />
+        <div className="flex flex-row justify-evenly items-center rounded-sm  m-4 my-8 lg:w-[40%] w-[100%] h-[20rem] backdrop-blur-xl bg-[#ffffff09] shadow-sm shadow-[#fff4]">
+            <div className="w-[40%]">
+                <img src={thumbnail} className="w-[100%] mx-[-20%] rounded-md" />
+            </div>
+            <div className="text-white flex justify-evenly flex-col h-[100%] w-[50%] items-start">
+                <h1 className="text-theme text-2xl font-bold">{organizer}<hr className="border-theme-red border-2 my-[0.2rem] w-[80%]" /></h1>
+                <ul className="text-theme-green list-disc">
+                  {
+                    events.map((event)=>{
+                      return <li className="my-2 text-md font-medium">{event}</li>
+                    })
+                  }
+                </ul>
+            </div>
+            <Link to={window.location.href+"/"+organizer} className="text-theme text-6xl hover:scale-[105%] hover:translate-x-2 transition-transform duration-200"><IoIosArrowForward /></Link>
         </div>
-        <div className="text-white flex justify-evenly flex-col h-[100%] max-w-[50%] items-start">
-            <h1 className="text-theme text-2xl font-bold">{title}<hr className="border-theme-green my-2 w-[50%]" /></h1>
-            <div className=""><span className="text-xl font-bold">{date}</span> - <span className="text-theme-green font-bold">{duration}</span></div>
-            <p className="text-sm">{description.substring(0, 70) + "..."}</p>
-            <Link to={window.location.href+"/"+title} className="p-2 px-6 inline-block bg-theme mx-auto hover:scale-[105%] transition-transform duration-200">Know More</Link>
-        </div>
-    </div>
   )
 }
 

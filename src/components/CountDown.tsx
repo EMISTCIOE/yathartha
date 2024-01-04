@@ -9,7 +9,7 @@ const CountDown : React.FC = () => {
     const [timeLeft, setTimeLeft] = useState<string[]>([])
 
     useEffect(()=> {
-        let countDownDate = new Date("Jan 25, 2024 12:00:00").getTime();
+        let countDownDate = new Date("Jan 31, 2024 12:00:00").getTime();
 
         let x = setInterval(()=> {
         let now = new Date().getTime(); 
