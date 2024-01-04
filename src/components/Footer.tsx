@@ -21,7 +21,7 @@ const Footer : React.FC = () => {
             {
               _QuickLinks.map(({item, url})=>
               {
-                return <li><a href={url}>{item}</a></li>
+                return <li className="m-[0.2rem] hover:underline underline-offset-2 hover:text-theme"><a href={url}>{item}</a></li>
               })
             }
           </ul>

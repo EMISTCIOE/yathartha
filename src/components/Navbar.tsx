@@ -54,9 +54,9 @@ const Navbar : React.FC = () => {
 
   return (
       <>
-        <button className="lg:hidden z-20 fixed top-8 right-8 text-4xl hover:text-theme-red text-white" onClick={()=>setIsNavActive(!isNavActive)}>{isNavActive?<IoClose />:<IoMenu />}</button>
+        <button className="lg:hidden z-50 fixed top-6 right-6 text-4xl hover:text-theme-red text-theme" onClick={()=>setIsNavActive(!isNavActive)}>{isNavActive?<IoClose />:<IoMenu />}</button>
         {
-            <nav className={(isMobActive?(isNavActive?"flex":"hidden"):"flex") + " lg:flex-row flex-col justify-evenly items-center w-[100%] fixed z-10 lg:h-[5rem] h-[100vh] " + (scrollActive?" bg-theme-black":"")}>
+            <nav className={(isMobActive?(isNavActive?"flex bg-theme-black":"hidden"):"flex") + " lg:flex-row flex-col justify-evenly items-center w-[100%] fixed z-40 lg:h-[5rem] h-[100vh] " + (scrollActive?" bg-theme-black":"")}>
                 <a href="/home" className="lg:h-[100%] h-[10%]"><img src={Logo} className="h-[100%]" /></a>
                 <NavLinks />
                 <div className="lg:w-[10%] w-[100%] lg:text-2xl text-4xl text-theme-white">
