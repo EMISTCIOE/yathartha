@@ -1,6 +1,6 @@
 export const _PreEvents = [
     {
-        thumbnail : "",
+        thumbnail : "https://shop.raceya.fit/wp-content/uploads/2020/11/logo-placeholder.jpg",
         organizer : "AMSEIN",
         events : [
             "Workshop on Ansys",
@@ -10,7 +10,7 @@ export const _PreEvents = [
         ]
     },
     {
-        thumbnail : "",
+        thumbnail : "https://shop.raceya.fit/wp-content/uploads/2020/11/logo-placeholder.jpg",
         organizer : "ASIS",
         events : [
             "Design Competition",
@@ -22,7 +22,7 @@ export const _PreEvents = [
         ]
     },
     {
-        thumbnail : "",
+        thumbnail : "https://shop.raceya.fit/wp-content/uploads/2020/11/logo-placeholder.jpg",
         organizer : "CESS",
         events : [
             "Photography",
@@ -31,7 +31,7 @@ export const _PreEvents = [
         ]
     },
     {
-        thumbnail : "",
+        thumbnail : "https://shop.raceya.fit/wp-content/uploads/2020/11/logo-placeholder.jpg",
         organizer : "ECAST",
         events : [
             "Meme Competition",
@@ -41,7 +41,7 @@ export const _PreEvents = [
         ]
     },
     {
-        thumbnail : "",
+        thumbnail : "https://shop.raceya.fit/wp-content/uploads/2020/11/logo-placeholder.jpg",
         organizer : "SOIES",
         events : [
             "Talk Show",
@@ -55,7 +55,7 @@ export const _PreEvents = [
 
 export const _MainEvents = [
     {
-        thumbnail : "",
+        thumbnail : "https://shop.raceya.fit/wp-content/uploads/2020/11/logo-placeholder.jpg",
         organizer : "AMSEIN",
         events : [
             "Junk Art Competition",
@@ -68,7 +68,7 @@ export const _MainEvents = [
         ]
     },
     {
-        thumbnail : "",
+        thumbnail : "https://shop.raceya.fit/wp-content/uploads/2020/11/logo-placeholder.jpg",
         organizer : "ASIS",
         events : [
             "Thesis Echibition",
@@ -78,7 +78,7 @@ export const _MainEvents = [
         ]
     },
     {
-        thumbnail : "",
+        thumbnail : "https://shop.raceya.fit/wp-content/uploads/2020/11/logo-placeholder.jpg",
         organizer : "CESS",
         events : [
             "Model Competition",
@@ -89,7 +89,7 @@ export const _MainEvents = [
         ]
     },
     {
-        thumbnail : "",
+        thumbnail : "https://shop.raceya.fit/wp-content/uploads/2020/11/logo-placeholder.jpg",
         organizer : "ECAST",
         events : [
             "PUBG Competition",
@@ -98,7 +98,7 @@ export const _MainEvents = [
         ]
     },
     {
-        thumbnail : "",
+        thumbnail : "https://shop.raceya.fit/wp-content/uploads/2020/11/logo-placeholder.jpg",
         organizer : "RAC",
         events : [
             "Robot War",
@@ -106,7 +106,7 @@ export const _MainEvents = [
         ]
     },
     {
-        thumbnail : "",
+        thumbnail : "https://shop.raceya.fit/wp-content/uploads/2020/11/logo-placeholder.jpg",
         organizer : "SOIES",
         events : [
             "4th Year Project Demo"
@@ -321,7 +321,7 @@ export const _EventsDate = [
       id: 4,
       day: 2,
       time: "10:00 AM - 4:00 PM",
-      title: "4.Thapathali Tech Fest Project Exhibition: For Sustainability",
+      title: "4. Thapathali Tech Fest Project Exhibition: For Sustainability",
       description: [
         "Separate registration required; Registration limited to 50. Participants will have free access to Tech Fest; free access to Tech Fest only applies to those who are registered and approved by the event managers.",
         "Managed by: , Communication Team, Ecast",
