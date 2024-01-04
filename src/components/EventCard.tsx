@@ -11,7 +11,7 @@ interface IEventCard {
 const EventCard : React.FC<IEventCard> = ({thumbnail, organizer, events}) => 
 {
   return (
-        <div className="flex flex-row justify-evenly items-center rounded-sm  m-4 my-8 lg:w-[40%] w-[100%] h-[20rem] backdrop-blur-xl bg-[#ffffff09] shadow-sm shadow-[#fff4]">
+        <div className="flex flex-row justify-evenly items-center rounded-sm  m-4 my-8 lg:w-[40%] w-[100%] min-h-[20rem] backdrop-blur-xl bg-[#ffffff09] shadow-sm shadow-[#fff4] p-2">
             <div className="w-[40%]">
                 <img src={thumbnail} className="w-[100%] mx-[-20%] rounded-md" />
             </div>
@@ -25,7 +25,7 @@ const EventCard : React.FC<IEventCard> = ({thumbnail, organizer, events}) =>
                   }
                 </ul>
             </div>
-            <Link to={window.location.href+"/"+organizer} className="text-theme text-6xl hover:scale-[105%] hover:translate-x-2 transition-transform duration-200"><IoIosArrowForward /></Link>
+            <Link to={window.location.href+"/"+organizer} className="text-theme sm:text-6xl text-3xl hover:scale-[105%] hover:translate-x-2 transition-transform duration-200"><IoIosArrowForward /></Link>
         </div>
   )
 }
