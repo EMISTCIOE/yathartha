@@ -281,5 +281,51 @@ export const _Partners = [
         name : "Segway Inc.",
         image : "https://compliancecalendar.s3.ap-south-1.amazonaws.com/assets/ogimage/partnership-firm-registration.jpg"
     }
+];
 
-]
+export const _EventsDate = [
+    {
+      id: 1,
+      day: 1,
+      time: "10:00 AM - 4:00 PM",
+      title: "1. Thapathali Tech Fest Project Exhibition: For Sustainability",
+      description: [
+        "Separate registration required; Registration limited to 50. Participants will have free access to Tech Fest. free access to Tech Fest only applies to those who are registered and approved by the event managers.",
+        "Managed by: , Communication Team, Ecast",
+      ],
+      setting: "Event-Setting: Online",
+    },
+    {
+      id: 2,
+      day: 1,
+      time: "10:00 AM - 4:00 PM",
+      title: "2. Thapathali Tech Fest Project Exhibition: For Sustainability",
+      description: [
+        "Separate registration required; Registration limited to 50. Participants will have free access to Tech Fest; free access to Tech Fest only applies to those who are registered and approved by the event managers.",
+        "Managed by: , Communication Team, Ecast",
+      ],
+      setting: "Event-Setting: On-site,Thapathali Campus",
+    },
+    {
+      id: 3,
+      day: 2,
+      time: "10:00 AM - 4:00 PM",
+      title: "3. Thapathali Tech Fest Project Exhibition: For Sustainability",
+      description: [
+        "Separate registration required; Registration limited to 50. Participants will have free access to Tech Fest; free access to Tech Fest only applies to those who are registered and approved by the event managers.",
+        "Managed by: , Communication Team, Ecast",
+      ],
+      setting: "Event-Setting: On-site,Thapathali Campus",
+    },
+    {
+      id: 4,
+      day: 2,
+      time: "10:00 AM - 4:00 PM",
+      title: "4.Thapathali Tech Fest Project Exhibition: For Sustainability",
+      description: [
+        "Separate registration required; Registration limited to 50. Participants will have free access to Tech Fest; free access to Tech Fest only applies to those who are registered and approved by the event managers.",
+        "Managed by: , Communication Team, Ecast",
+      ],
+      setting: "Event-Setting: On-site,Thapathali Campus",
+    },
+  ];
