@@ -1,5 +1,5 @@
 import { _Workshops } from "../assets/data/MoreInfo"
-import EventCard from "../components/EventCard"
+import WorkshopCard from "../components/WorkshopCard"
 
 const Workshops : React.FC = () => {
   return (
@@ -12,7 +12,7 @@ const Workshops : React.FC = () => {
             {
                 _Workshops.map(({title, date, duration, thumbnail, description})=>
                 {
-                    return <EventCard title={title} date={date} duration={duration} thumbnail={thumbnail} description={description} />
+                    return <WorkshopCard title={title} date={date} duration={duration} thumbnail={thumbnail} description={description} />
                 })
             }
         </div>
