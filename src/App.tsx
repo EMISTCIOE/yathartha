@@ -9,6 +9,7 @@ import Workshops from './pages/Workshops.tsx';
 import Competitions from './pages/Competitions.tsx';
 import Speakers from './pages/Speakers.tsx';
 import Partners from './pages/Partners.tsx';
+import ContactUs from './pages/ContactUs.tsx';
 
 const App : React.FC = () => {
   return (
@@ -21,6 +22,7 @@ const App : React.FC = () => {
       <Route path="/competitions" element={<Competitions />} />
       <Route path="/speakers" element={<Speakers />} />
       <Route path="/partners" element={<Partners />} />
+      <Route path="/contactus" element={<ContactUs />} />
       <Route path="/" element={<Landing />} />
       <Route path="/*" element={<NotFound />} />
     </Routes>
