@@ -1,6 +1,6 @@
 export const _PreEvents = [
     {
-        thumbnail : "/src/assets/images/events/AMESIN.jpg",
+        thumbnail : "../src/assets/images/events/AMESIN.jpg",
         organizer : "AMESIN",
         events : [
             "Workshop on Ansys",
