@@ -1,6 +1,6 @@
 export const _PreEvents = [
     {
-        thumbnail : "../src/assets/images/events/AMESIN.jpg",
+        thumbnail : "/src/assets/images/events/AMESIN.jpg",
         organizer : "AMESIN",
         events : [
             "Workshop on Ansys",
@@ -10,7 +10,7 @@ export const _PreEvents = [
         ]
     },
     {
-        thumbnail : "../src/assets/images/events/ASIS.jpg",
+        thumbnail : "/src/assets/images/events/ASIS.jpg",
         organizer : "ASIS",
         events : [
             "Design Competition",
@@ -22,7 +22,7 @@ export const _PreEvents = [
         ]
     },
     {
-        thumbnail : "../src/assets/images/events/CESS.jpg",
+        thumbnail : "/src/assets/images/events/CESS.jpg",
         organizer : "CESS",
         events : [
             "Photography",
@@ -31,7 +31,7 @@ export const _PreEvents = [
         ]
     },
     {
-        thumbnail : "../src/assets/images/events/ECAST.jpg",
+        thumbnail : "/src/assets/images/events/ECAST.jpg",
         organizer : "ECAST",
         events : [
             "Meme Competition",
@@ -41,7 +41,7 @@ export const _PreEvents = [
         ]
     },
     {
-        thumbnail : "../src/assets/images/events/SOIES.jpg",
+        thumbnail : "/src/assets/images/events/SOIES.jpg",
         organizer : "SOIES",
         events : [
             "Talk Show",
@@ -55,7 +55,7 @@ export const _PreEvents = [
 
 export const _MainEvents = [
     {
-        thumbnail : "../src/assets/images/events/AMESIN.jpg",
+        thumbnail : "/src/assets/images/events/AMESIN.jpg",
         organizer : "AMESIN",
         events : [
             "Junk Art Competition",
@@ -68,7 +68,7 @@ export const _MainEvents = [
         ]
     },
     {
-        thumbnail : "../src/assets/images/events/ASIS.jpg",
+        thumbnail : "/src/assets/images/events/ASIS.jpg",
         organizer : "ASIS",
         events : [
             "Thesis Echibition",
@@ -78,7 +78,7 @@ export const _MainEvents = [
         ]
     },
     {
-        thumbnail : "../src/assets/images/events/CESS.jpg",
+        thumbnail : "/src/assets/images/events/CESS.jpg",
         organizer : "CESS",
         events : [
             "Model Competition",
@@ -89,7 +89,7 @@ export const _MainEvents = [
         ]
     },
     {
-        thumbnail : "../src/assets/images/events/ECAST.jpg",
+        thumbnail : "/src/assets/images/events/ECAST.jpg",
         organizer : "ECAST",
         events : [
             "PUBG Competition",
@@ -98,7 +98,7 @@ export const _MainEvents = [
         ]
     },
     {
-        thumbnail : "../src/assets/images/events/RAC.jpg",
+        thumbnail : "/src/assets/images/events/RAC.jpg",
         organizer : "RAC",
         events : [
             "Robot War",
@@ -106,7 +106,7 @@ export const _MainEvents = [
         ]
     },
     {
-        thumbnail : "../src/assets/images/events/SOIES.jpg",
+        thumbnail : "/src/assets/images/events/SOIES.jpg",
         organizer : "SOIES",
         events : [
             "4th Year Project Demo"
