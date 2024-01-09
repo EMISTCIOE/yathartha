@@ -9,7 +9,7 @@ const Landing : React.FC = () => {
         <Home />
         <About />
         <Schedule />
-        <Sponsor />
+        {/* <Sponsor /> */}
     </>
   )
 }

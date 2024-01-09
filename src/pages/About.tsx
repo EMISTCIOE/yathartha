@@ -10,8 +10,8 @@ const About : React.FC = () => {
             <hr className="w-[20rem] border-2 border-theme-green rounded-xl m-8"/>
         </div>
         <div className="flex lg:flex-row flex-col justify-evenly items-center w-[100%]">
-            <p className="text-theme-white lg:w-[30rem] w-[80%] text-justify">{_EventDetails.about}</p>
-            <div className="xl:w-[35rem] w-[30rem] xl:h-[25rem] h-[20rem] my-8 bg-theme-white rounded-xl overflow-hidden"><img src={Logo} className="h-[100%]" /></div>
+            <p className="text-theme-white lg:w-[30rem] w-[80%] text-justify tracking-wide text-lg">{_EventDetails.about}</p>
+            <div className="xl:w-[35rem] w-[30rem] xl:h-[25rem] h-[20rem] my-8 bg-theme-white rounded-xl overflow-hidden"><img src={Logo} className="h-[100%] m-auto" /></div>
         </div>
         <div className="flex flex-col w-[100%]">
             <Stats/>

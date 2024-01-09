@@ -12,7 +12,7 @@ const Home : React.FC = () => {
                 <span className="text-theme-white lg:text-2xl text-xl tracking-wider my-2">{_EventDetails.mainquote}</span>
             </div>
             <div className="flex flex-col justify-evenly items-center">
-                <h1 className="text-theme-white text-3xl ">{_EventDetails.date}</h1>
+                <h1 className="text-theme-white text-3xl font-bold">{_EventDetails.date}</h1>
                 <CountDown />
             </div>
         </main>

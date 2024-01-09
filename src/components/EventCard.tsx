@@ -13,7 +13,7 @@ const EventCard : React.FC<IEventCard> = ({thumbnail, organizer, events}) =>
   return (
         <div className="flex flex-row justify-evenly items-center rounded-sm  m-4 my-8 lg:w-[40%] w-[100%] min-h-[20rem] backdrop-blur-xl bg-[#ffffff09] shadow-sm shadow-[#fff4] p-2">
             <div className="w-[40%]">
-                <img src={thumbnail} className="w-[100%] mx-[-20%] rounded-md" />
+                <img src={thumbnail} className="w-[100%] mx-[-20%] rounded-md bg-theme-white p-2" />
             </div>
             <div className="text-white flex justify-evenly flex-col h-[100%] w-[50%] items-start">
                 <h1 className="text-theme text-2xl font-bold">{organizer}<hr className="border-theme-red border-2 my-[0.2rem] w-[80%]" /></h1>

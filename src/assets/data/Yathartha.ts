@@ -5,7 +5,7 @@ export const _EventDetails = {
     theme : ["environment", "technology", "AI/ML", "...."],
     contact : {
         phone : "+977 984534343, +977 988786876",
-        email : "techfest@tcioe.edu.np"
+        email : "yathartha@tcioe.edu.np"
     },
     location : "IOE Thapathali Campus, Kathmandu, Nepal",
     date : "Magh 17 & 18",
@@ -55,18 +55,18 @@ export const _NavItems = [
         item : "Events",
         url : "/events"
     },
-    {
-        item : "Workshops",
-        url : "/workshops"
-    },
-    {
-        item : "Competitions",
-        url : "/competitions"
-    },
-    {
-        item : "Speakers",
-        url : "/speakers"
-    },
+    // {
+    //     item : "Workshops",
+    //     url : "/workshops"
+    // },
+    // {
+    //     item : "Competitions",
+    //     url : "/competitions"
+    // },
+    // {
+    //     item : "Speakers",
+    //     url : "/speakers"
+    // },
     {
         item : "Partners",
         url : "/partners"
@@ -95,14 +95,10 @@ export const _QuickLinks = [
 export const _SocialLinks = [
     {
         media : "Facebook",
-        url : "#"
+        url : "https://www.facebook.com/yatharthatcioe"
     },
     {
         media : "Instagram",
-        url : "#"
-    },
-    {
-        media : "Linkedin",
-        url : "#"
+        url : "https://www.instagram.com/yathartha_tcioe/"
     }
 ];

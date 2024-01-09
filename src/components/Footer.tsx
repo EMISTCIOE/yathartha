@@ -35,7 +35,7 @@ const Footer : React.FC = () => {
 
           <div className="flex items-center">
             <FaRegEnvelope />
-            <a href="mainto:techfest@tcioe.edu.np" className="m-2">{_EventDetails.contact.email}</a>
+            <a href="mailto:yathartha@tcioe.edu.np" className="m-2">{_EventDetails.contact.email}</a>
           </div>
 
           <div className="flex items-center">
@@ -46,11 +46,14 @@ const Footer : React.FC = () => {
       </div>
       <div className="text-theme-white text-center">
         <span className="text-xl text-theme-red font-bold">Connect with us on:</span>
-        <div className="text-4xl mx-auto w-[50%] my-2">
+        <div className="text-4xl mx-auto w-[30%] my-4">
           <Socials />
         </div>
         <div className="m-4 font-light">
           Copyright &copy; {currentYear} | <span className="text-theme font-bold">{_EventDetails.name}</span> | All rights reserved.
+        </div>
+        <div className="mt-6 text-theme-green text-lg">
+          Designed and Developed by <span className="font-bold text-xl">&nbsp;ECAST</span>
         </div>
       </div>
     </div>

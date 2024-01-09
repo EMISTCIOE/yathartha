@@ -31,8 +31,8 @@ const CountDown : React.FC = () => {
     },[])
 
   return (
-    <div className="bg-theme-black-alt animate-border bg-gradient-to-r from-theme via-theme-red to-theme bg-[length:400%_400%] rounded-xl p-[0.25rem] m-6 text-theme-white">
-        <div className="bg-theme-black-alt flex md:flex-row flex-col justify-evenly rounded-xl p-6">
+    <div className="animate-border bg-gradient-to-r from-theme via-theme-red to-theme bg-[length:400%_400%] rounded-xl p-[0.25rem] m-6 text-theme-white">
+        <div className="bg-theme-white flex md:flex-row flex-col justify-evenly rounded-xl p-6">
             <Digit num={timeLeft[0]} time={"days"} />
             <Digit num={timeLeft[1]} time={"hours"} />
             <Digit num={timeLeft[2]} time={"minutes"} />
@@ -45,8 +45,8 @@ const CountDown : React.FC = () => {
 const Digit : React.FC<ICounter> = ({num, time} : ICounter) => {
     return (
         <div className="flex flex-col justify-evenly items-center m-2 mx-6">
-            <span className="text-5xl text-theme">{num}</span>
-            <span className="text-sm font-light">{time}</span>
+            <span className="text-5xl text-theme font-bold">{num}</span>
+            <span className="text-sm text-black font-light">{time}</span>
         </div>
     )
 }

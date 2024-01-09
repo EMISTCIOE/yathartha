@@ -71,7 +71,7 @@ const Navbar : React.FC = () => {
 const NavLinks : React.FC = () => {
 
     return (
-        <div className="flex lg:flex-row flex-col justify-evenly items-center w-[60%]">
+        <div className="flex lg:flex-row flex-col justify-evenly items-center w-[60%] px-[10%]">
             {
                 _NavItems.map(({item, url})=>
                 {
@@ -88,7 +88,7 @@ const Socials : React.FC = () => {
             {
                 _SocialLinks.map(({media, url})=>
                 {
-                    return <a href={url} className="hover:scale-[105%] mx-2">{media==="Facebook"?<FaFacebook />:media=="Instagram"?<FaInstagram />:media=="Linkedin"?<FaLinkedin />:null}</a>
+                    return <a href={url} target="_blank" className="hover:scale-[105%] mx-2">{media==="Facebook"?<FaFacebook />:media=="Instagram"?<FaInstagram />:media=="Linkedin"?<FaLinkedin />:null}</a>
                 })
             }
         </div>
