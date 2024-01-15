@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 import Logo from "../assets/logo.jpg";
 import "../styles/footer.css"
 import { Socials } from "./Navbar";
