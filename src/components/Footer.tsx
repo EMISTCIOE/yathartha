@@ -21,7 +21,10 @@ const Footer : React.FC = () => {
             {
               _QuickLinks.map(({item, url})=>
               {
-                return <li className="m-[0.2rem] hover:underline underline-offset-2 hover:text-theme"><a href={url}>{item}</a></li>
+                return <li className="m-[0.2rem] hover:underline underline-offset-2 hover:text-theme">
+                  {/* <a href={url}>{item}</a> */}
+                  <NavLink to={url}>{item}</NavLink>
+                  </li>
               })
             }
           </ul>
@@ -40,7 +43,7 @@ const Footer : React.FC = () => {
 
           <div className="flex items-center">
             <FaLocationDot />
-            <span className="m-2">{_EventDetails.location}</span>
+            <a href="https://maps.app.goo.gl/99kCXfQCxWZXVRZG6" className="m-2">{_EventDetails.location}</a>
           </div>
         </div>
       </div>

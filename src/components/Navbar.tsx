@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { NavLink } from "react-router-dom";
 import {
     FaLinkedin,
     FaInstagram,
@@ -57,7 +58,8 @@ const Navbar : React.FC = () => {
         <button className="lg:hidden z-50 fixed top-6 right-6 text-4xl hover:text-theme-red text-theme" onClick={()=>setIsNavActive(!isNavActive)}>{isNavActive?<IoClose />:<IoMenu />}</button>
         {
             <nav className={(isMobActive?(isNavActive?"flex bg-theme-black":"hidden"):"flex") + " lg:flex-row flex-col justify-evenly items-center w-[100%] fixed z-40 lg:h-[5rem] h-[100vh] " + (scrollActive?" bg-theme-black":"")}>
-                <a href="/home" className="lg:h-[100%] h-[10%]"><img src={Logo} className="h-[100%]" /></a>
+                {/* <a href="/home" className="lg:h-[100%] h-[10%]"><img src={Logo} className="h-[100%]" /></a>*/}
+                <NavLink to="/home" className="lg:h-[100%] h-[10%]"><img src={Logo} className="h-[100%]" /></NavLink>
                 <NavLinks />
                 <div className="lg:w-[10%] w-[100%] lg:text-2xl text-4xl text-theme-white">
                     <Socials />
@@ -96,8 +98,10 @@ const Socials : React.FC = () => {
 }
 
 const NavItem : React.FC<INavItem> = ({item, url} : INavItem) => {
-    return (
-        <a href={url} className="m-2 font-medium text-white transition duration-200 hover:scale-[105%] hover:text-theme">{item}</a>
+    return (<>
+        {/* <a href={url} className="m-2 font-medium text-white transition duration-200 hover:scale-[105%] hover:text-theme">{item}</a> */}
+        <NavLink to={url} className="m-2 font-medium text-white transition duration-200 hover:scale-[105%] hover:text-theme">{item}</NavLink>  
+    </>
     )
 }
 
