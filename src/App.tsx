@@ -14,19 +14,21 @@ import ContactUs from './pages/ContactUs.tsx';
 const App : React.FC = () => {
   return (
     <>
-    <Navbar />
-    <Routes>
-      <Route path="/home" Component={Landing} />
-      <Route path="/events" Component={Events} />
-      <Route path="/workshops" Component={Workshops} />
-      <Route path="/competitions" Component={Competitions} />
-      <Route path="/speakers" Component={Speakers} />
-      {/* <Route path="/partners" element={<Partners />} /> */}
-      <Route path="/contactus" Component={ContactUs} />
-      <Route path="/" Component={Landing} />
-      <Route path="/*" Component={NotFound} />
-    </Routes>
-    <Footer />
+    <BrowserRouter basename="/">
+      <Navbar />
+      <Routes>
+        <Route path="/home" Component={Landing} />
+        <Route path="/events" Component={Events} />
+        <Route path="/workshops" Component={Workshops} />
+        <Route path="/competitions" Component={Competitions} />
+        <Route path="/speakers" Component={Speakers} />
+        {/* <Route path="/partners" element={<Partners />} /> */}
+        <Route path="/contactus" Component={ContactUs} />
+        <Route path="/" Component={Landing} />
+        <Route path="/*" Component={NotFound} />
+      </Routes>
+      <Footer />
+    </BrowserRouter>
     </>
   )
 }
