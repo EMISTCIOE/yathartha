@@ -23,7 +23,7 @@ const ContactUs = () => {
 
           <div className="flex items-center">
             <FaLocationDot />
-            <span className="m-2">{_EventDetails.location}</span>
+            <a href="https://maps.app.goo.gl/99kCXfQCxWZXVRZG6" className="m-2">{_EventDetails.location}</a>
           </div>
         </div>
     </section>
