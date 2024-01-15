@@ -57,7 +57,7 @@ const Footer : React.FC = () => {
           Copyright &copy; {currentYear} | <span className="text-theme font-bold">{_EventDetails.name}</span> | All rights reserved.
         </div>
         <div className="mt-6 text-theme-green text-lg">
-          Designed and Developed by <span className="font-bold text-xl">&nbsp;ECAST</span>
+          Designed with ❤️ by <a href="https://ecast.tcioe.edu.np" target="_blank"><span className="font-bold text-xl">&nbsp;ECAST</span></a>
         </div>
       </div>
     </div>
