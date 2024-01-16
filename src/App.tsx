@@ -22,7 +22,7 @@ const App : React.FC = () => {
         <Route path="/workshops" Component={Workshops} />
         <Route path="/competitions" Component={Competitions} />
         <Route path="/speakers" Component={Speakers} />
-        {/* <Route path="/partners" element={<Partners />} /> */}
+        <Route path="/partners" Component={Partners} />
         <Route path="/contactus" Component={ContactUs} />
         <Route path="/" Component={Landing} />
         <Route path="/*" Component={NotFound} />

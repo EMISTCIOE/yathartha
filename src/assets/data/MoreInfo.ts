@@ -19,7 +19,6 @@ export const _PreEvents = [
             "Live art competition",
             "Magazine launch" ,
             "Symposium/talk show" 
-
         ]
     },
     {
@@ -114,37 +113,6 @@ export const _MainEvents = [
             "4th Year Project Demo"
         ]
     }
-];
-
-export const _Events = [
-    {
-        title : "Grand Coding Prix",
-        date : "Magh 11",
-        duration : "24 hours",
-        thumbnail : "https://www.customerservice.ae/wp-content/uploads/2016/12/5-Tips-For-Creating-Better-Experience-At-Events.png",
-        description : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet illo, explicabo voluptatum exercitationem sint aspernatur, dolore molestiae, tempora tenetur nisi maiores? Magni fugiat cupiditate similique quo aut rerum adipisci tempore atque non?"
-    },
-    {
-        title : "Break the Code",
-        date : "Magh 12",
-        duration : "4 hours",
-        thumbnail : "https://www.customerservice.ae/wp-content/uploads/2016/12/5-Tips-For-Creating-Better-Experience-At-Events.png",
-        description : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet illo, explicabo voluptatum exercitationem sint aspernatur, dolore molestiae, tempora tenetur nisi maiores? Magni fugiat cupiditate similique quo aut rerum adipisci tempore atque non?"
-    },
-    {
-        title : "Gaming Fever",
-        date : "Magh 11",
-        duration : "2 hours",
-        thumbnail : "https://www.customerservice.ae/wp-content/uploads/2016/12/5-Tips-For-Creating-Better-Experience-At-Events.png",
-        description : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet illo, explicabo voluptatum exercitationem sint aspernatur, dolore molestiae, tempora tenetur nisi maiores? Magni fugiat cupiditate similique quo aut rerum adipisci tempore atque non?"
-    },
-    {
-        title : "Get the Bug",
-        date : "Magh 12",
-        duration : "4 hours",
-        thumbnail : "https://www.customerservice.ae/wp-content/uploads/2016/12/5-Tips-For-Creating-Better-Experience-At-Events.png",
-        description : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet illo, explicabo voluptatum exercitationem sint aspernatur, dolore molestiae, tempora tenetur nisi maiores? Magni fugiat cupiditate similique quo aut rerum adipisci tempore atque non?"
-    },
 ];
 
 export const _Workshops = [
@@ -254,34 +222,34 @@ export const _Speakers = [
 
 export const _Partners = [
     {
-        rank : "Legend",
-        name : "YOU",
-        image : "https://compliancecalendar.s3.ap-south-1.amazonaws.com/assets/ogimage/partnership-firm-registration.jpg"
+        rank : "Title Sponser",
+        name : "Yathartha",
+        image : "../src/assets/logo.jpg"
     },
     {
-        rank : "Platinum",
-        name : "CG Motors",
-        image : "https://compliancecalendar.s3.ap-south-1.amazonaws.com/assets/ogimage/partnership-firm-registration.jpg"
+        rank : "Powered By",
+        name : "Yathartha",
+        image : "../src/assets/logo.jpg"
     },
     {
-        rank : "Bronze",
-        name : "Programiz",
-        image : "https://compliancecalendar.s3.ap-south-1.amazonaws.com/assets/ogimage/partnership-firm-registration.jpg"
+        rank : "Community Partner",
+        name : "ARC",
+        image : "/images/partner/ARC.jpg"
     },
     {
-        rank : "Gold",
-        name : "Shireto",
-        image : "https://compliancecalendar.s3.ap-south-1.amazonaws.com/assets/ogimage/partnership-firm-registration.jpg"
+        rank : "Community Partner",
+        name : "COESIS",
+        image : "/images/partner/COESIS.jpg"
     },
     {
-        rank : "Platinum",
-        name : "NIC Asia",
-        image : "https://compliancecalendar.s3.ap-south-1.amazonaws.com/assets/ogimage/partnership-firm-registration.jpg"
+        rank : "Community Partner",
+        name : "Engineer Ko Katha",
+        image : "/images/partner/EKK.jpg"
     },
     {
-        rank : "Silver",
-        name : "Segway Inc.",
-        image : "https://compliancecalendar.s3.ap-south-1.amazonaws.com/assets/ogimage/partnership-firm-registration.jpg"
+        rank : "Community Partner",
+        name : "KBC IT Club",
+        image : "/images/partner/KBCITCLUB.jpg"
     }
 ];
 
