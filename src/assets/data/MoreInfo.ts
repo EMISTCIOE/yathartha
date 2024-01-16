@@ -5,7 +5,7 @@ export const _PreEvents = [
         events : [
             "Workshop on Ansys",
             "3D Design Competition",
-            "Ideathone",
+            "Ideathon",
             "Tech Talk"
         ]
     },
@@ -13,12 +13,13 @@ export const _PreEvents = [
         thumbnail : "/images/events/ASIS.jpg",
         organizer : "ASIS",
         events : [
-            "Design Competition",
-            "Ramed Earth WorkShop",
-            "Model Making",
-            "Live Art Competition",
-            "Magazine Launch",
-            "Symposium/Talk Show"
+            "Design competition",
+            "Placemaking workshop", 
+            "Model making",
+            "Live art competition",
+            "Magazine launch" ,
+            "Symposium/talk show" 
+
         ]
     },
     {
@@ -46,7 +47,7 @@ export const _PreEvents = [
         events : [
             "Talk Show",
             "Workshop on Public Speaking",
-            "Egronomic Design Cmopetition",
+            "Ergonomic Design Cmopetition",
             "Bagchal + Chungi",
             "Olympiad"
         ]
@@ -71,7 +72,7 @@ export const _MainEvents = [
         thumbnail : "/images/events/ASIS.jpg",
         organizer : "ASIS",
         events : [
-            "Thesis Echibition",
+            "Thesis Exhibition",
             "Student Work Display",
             "Model Display",
             "Pottery"
@@ -102,12 +103,13 @@ export const _MainEvents = [
         organizer : "RAC",
         events : [
             "Robot War",
-            "Robo Soccer"
+            "Robo Soccer",
+            "Margadarshak"
         ]
     },
     {
         thumbnail : "/images/events/SOIES.jpg",
-        organizer : "SOIES",
+        organizer : "SOIES-NEPAL",
         events : [
             "4th Year Project Demo"
         ]

@@ -4,12 +4,12 @@ export const _EventDetails = {
     mainquote : "Recognize Reality, Fabricate Future",
     theme : ["environment", "technology", "AI/ML", "...."],
     contact : {
-        phone : "+977 984534343, +977 988786876",
+        phone : "+977-9863099259, +977-9842503707",
         email : "yathartha@tcioe.edu.np"
     },
     location : "Thapathali Campus, Thapathali, Kathmandu",
     date : "Magh 17 & 18",
-    about : "Yathartha is a big tech fest put together by student groups from Thapathali Campus, with the FSU coordinating everything. It's like a huge stage where young thinkers come together to turn their cool ideas into reality. Imagine the world of school lessons where they talk a lot about how things work. At Yathartha, we're taking a break from the usual routine and getting into the fun side of doing things with your hands. It's a chance to go beyond just reading and really experience how vision can be turned to reality"
+    about : "Yathartha is the first ever happening major tech fest organized by student bodies of Thapathali Campus cordially connecting with FSU. It’s an event that marks a paradigm shift in how we celebrate technology, innovation & collaboration with groundbreaking ideas & pioneering initiatives. Through Yathartha, we’re providing a platform for students to engage themselves in different events marking a break from the usual routine. We aim to cultivate a collaborative mindset by breaking down the silos that often separate different engineering branches."
 };
 
 export const _EventTarget = [
