@@ -33,7 +33,7 @@ const SponsorItem : React.FC<ISponsorItem> = ({type, url}) => {
                 {
                     url.map((url)=>
                     {
-                        return <li className="p-2 h-[10rem] lg:w-[16rem] w-[10rem] bg-theme-white rounded-xl m-4"><img src={url} className="m-auto h-[100%] hover:scale-[104%]" /></li>
+                        return <li className="p-2 h-[10rem] lg:w-[16rem] w-[10rem] bg-theme-green rounded-xl m-4"><img src={url} className="m-auto h-[100%] hover:scale-[104%]" /></li>
                     })
                 }
             </ul>
