@@ -16,7 +16,7 @@ interface INavItem
     url : string
 };
 
-const Navbar : React.FC<React.Dispatch<React.SetStateAction<boolean>>> = () => {
+const Navbar : React.FC = () => {
     const [isMobActive, setIsMobActive] = useState<boolean>(false);
     const [isNavActive, setIsNavActive] = useState<boolean>(false);
     const [scrollActive, setScrollActive] = useState<boolean>(false);
