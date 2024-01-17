@@ -5,7 +5,7 @@ import HeroImage from "../assets/hero.jpeg";
 const ContactUs = () => {
   return (
     <section className="flex flex-col justify-evenly items-center min-h-[100vh] text-white w-[100%]">
-        <img src={HeroImage} className="absolute top-0 left-0 w-[100%] h-[100%] brightness-50 -z-10 object-cover"/>
+        <img src={HeroImage} className="absolute top-0 left-0 w-[100%] h-[120%] brightness-50 -z-10 object-cover"/>
         <div className="flex flex-col items-center">
             <h1 className="text-theme text-3xl font-bold">Contact Us</h1>
             <hr className="w-[8rem] border-2 border-theme-green my-2"/>
