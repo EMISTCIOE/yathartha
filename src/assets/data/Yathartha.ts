@@ -32,14 +32,14 @@ export const _EventTarget = [
 ];
 
 export const _EventSponsors = [
-    {
-        type : "Title Sponsor",
-        url : ["../src/assets/logo.jpg"]
-    },
-    {
-        type : "Powered By",
-        url : ["../src/assets/logo.jpg"]
-    },
+    // {
+    //     type : "Title Sponsor",
+    //     url : ["../src/assets/logo.jpg"]
+    // },
+    // {
+    //     type : "Powered By",
+    //     url : ["../src/assets/logo.jpg"]
+    // },
     {
         type : "Community Partners",
         url : ["/images/partner/ARC.jpg", "/images/partner/COESIS.jpg", "/images/partner/EKK.jpg", "/images/partner/KBCITCLUB.jpg"]

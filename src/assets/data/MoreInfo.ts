@@ -221,16 +221,16 @@ export const _Speakers = [
 ];
 
 export const _Partners = [
-    {
-        rank : "Title Sponser",
-        name : "Yathartha",
-        image : "../src/assets/logo.jpg"
-    },
-    {
-        rank : "Powered By",
-        name : "Yathartha",
-        image : "../src/assets/logo.jpg"
-    },
+    // {
+    //     rank : "Title Sponser",
+    //     name : "Yathartha",
+    //     image : "../src/assets/logo.jpg"
+    // },
+    // {
+    //     rank : "Powered By",
+    //     name : "Yathartha",
+    //     image : "../src/assets/logo.jpg"
+    // },
     {
         rank : "Community Partner",
         name : "ARC",
@@ -250,7 +250,13 @@ export const _Partners = [
         rank : "Community Partner",
         name : "KBC IT Club",
         image : "/images/partner/KBCITCLUB.jpg"
-    }
+    },
+    {
+        rank : "Community Partner",
+        name : "SIKAUNE",
+        image : "/images/partner/sikaune.png"
+    },
+
 ];
 
 export const _EventsDate = [
@@ -299,3 +305,6 @@ export const _EventsDate = [
       setting: "Event-Setting: On-site,Thapathali Campus",
     },
   ];
+
+
+  
