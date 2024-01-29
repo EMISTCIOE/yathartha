@@ -7,7 +7,7 @@ interface ISponsorItem {
 
 const Sponsor : React.FC = () => {
   return (
-    <section className="flex flex-col justify-evenly items-center min-h-[100vh] w-[100%] bg-theme-black-alt xl:p-12 p-2">
+    <section className="flex flex-col justify-evenly items-center min-h-[50vh] w-[100%] bg-theme-black-alt xl:p-12 p-2">
         <div className="flex flex-col justify-evenly items-center">
             <h1 className="text-theme text-4xl font-bold">Our Sponsors</h1>
             <hr className="w-[10rem] border-2 border-theme-green my-8 rounded-xl" />
