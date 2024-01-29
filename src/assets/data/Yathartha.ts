@@ -42,7 +42,7 @@ export const _EventSponsors = [
     // },
     {
         type : "Community Partners",
-        url : ["/images/partner/ARC.jpg", "/images/partner/COESIS.jpg", "/images/partner/EKK.jpg", "/images/partner/KBCITCLUB.jpg"]
+        url : ["/images/partner/ARC.jpg", "/images/partner/COESIS.jpg", "/images/partner/EKK.jpg", "/images/partner/KBCITCLUB.jpg","/images/partner/sikaune.png"]
     }
 ];
 
