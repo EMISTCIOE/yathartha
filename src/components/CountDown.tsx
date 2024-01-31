@@ -5,11 +5,16 @@ interface ICounter{
     time : string
 };
 
+interface ICharacter
+{
+    character : string
+};
+
 const CountDown : React.FC = () => {
     const [timeLeft, setTimeLeft] = useState<string[]>([])
 
     useEffect(()=> {
-        let countDownDate = new Date("Jan 31, 2024 12:00:00").getTime();
+        let countDownDate = new Date("Feb 2, 2024 12:00:00").getTime();
 
         let x = setInterval(()=> {
         let now = new Date().getTime(); 
@@ -32,14 +37,31 @@ const CountDown : React.FC = () => {
 
   return (
     <div className="animate-border bg-gradient-to-r from-theme via-theme-red to-theme bg-[length:400%_400%] rounded-xl p-[0.25rem] m-6 text-theme-white">
-        <div className="bg-theme-white flex md:flex-row flex-col justify-evenly rounded-xl p-6">
+        <div className="flex flex-row md:flex-col">
+        <div className="bg-theme-white flex md:flex-row flex-col justify-evenly rounded-xl p-6 m-2">
+            <CharDigit character="L"/>
+            <CharDigit character="I"/>
+            <CharDigit character="V"/>
+            <CharDigit character="E"/>
+        </div>
+        <div className="bg-theme-white flex md:flex-row flex-col justify-evenly rounded-xl p-6 m-2">
             <Digit num={timeLeft[0]} time={"days"} />
             <Digit num={timeLeft[1]} time={"hours"} />
             <Digit num={timeLeft[2]} time={"minutes"} />
             <Digit num={timeLeft[3]} time={"seconds"} />
         </div>
+        </div>
     </div>
   )
+}
+
+const CharDigit : React.FC<ICharacter> = ({character})=>
+{
+    return (
+    <div className="flex flex-col justify-evenly items-center m-2 mx-6">
+        <span className="text-6xl md:text-8xl text-theme font-bold">{character}</span>
+    </div>
+    )
 }
 
 const Digit : React.FC<ICounter> = ({num, time} : ICounter) => {
