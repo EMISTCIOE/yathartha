@@ -1,5 +1,3 @@
-import { useState, useEffect } from "react";
-
 interface ICounter{
     num : string,
     time : string
@@ -11,44 +9,21 @@ interface ICharacter
 };
 
 const CountDown : React.FC = () => {
-    const [timeLeft, setTimeLeft] = useState<string[]>([])
-
-    useEffect(()=> {
-        let countDownDate = new Date("Feb 2, 2024 12:00:00").getTime();
-
-        let x = setInterval(()=> {
-        let now = new Date().getTime(); 
-            
-        let distance = countDownDate - now;
-            
-        let days = Math.floor(distance / (1000 * 60 * 60 * 24));
-        let hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-        let minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-        let seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-        setTimeLeft([String(days),String(hours), String(minutes), String(seconds)]);
-            
-        if (distance < 0) {
-            clearInterval(x);
-            return -1;
-        }
-        }, 1000);
-    },[])
-
   return (
     <div className="animate-border bg-gradient-to-r from-theme via-theme-red to-theme bg-[length:400%_400%] rounded-xl p-[0.25rem] m-6 text-theme-white">
         <div className="flex flex-row md:flex-col">
         <div className="bg-theme-white flex md:flex-row flex-col justify-evenly rounded-xl p-6 m-2">
-            <CharDigit character="L"/>
-            <CharDigit character="I"/>
-            <CharDigit character="V"/>
             <CharDigit character="E"/>
+            <CharDigit character="N"/>
+            <CharDigit character="D"/>
+            <CharDigit character="E"/>
+            <CharDigit character="D"/>
         </div>
         <div className="bg-theme-white flex md:flex-row flex-col justify-evenly rounded-xl p-6 m-2">
-            <Digit num={timeLeft[0]} time={"days"} />
-            <Digit num={timeLeft[1]} time={"hours"} />
-            <Digit num={timeLeft[2]} time={"minutes"} />
-            <Digit num={timeLeft[3]} time={"seconds"} />
+            <Digit num={'-'} time={"days"} />
+            <Digit num={'-'} time={"hours"} />
+            <Digit num={'-'} time={"minutes"} />
+            <Digit num={'-'} time={"seconds"} />
         </div>
         </div>
     </div>
