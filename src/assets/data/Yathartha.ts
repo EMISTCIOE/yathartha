@@ -42,7 +42,7 @@ export const _EventSponsors = [
     // },
     {
         type : "Community Partners",
-        url : ["/images/partner/ARC.jpg", "/images/partner/COESIS.jpg", "/images/partner/EKK.jpg", "/images/partner/KBCITCLUB.jpg","/images/partner/sikaune.png"]
+        url : ["/images/partner/ARC.jpg", "/images/partner/COESIS.jpg", "/images/partner/EKK.jpg", "/images/partner/KBCITCLUB.jpg","/images/partner/sikaune.png","/images/partner/airtech.png","/images/partner/amsys.png","/images/partner/bonum_cha.png","/images/partner/clamphook.png","/images/partner/frenzie_fries.png","/images/partner/janakitech_logo.png","/images/partner/Khalti_Logo_Color\ 1.png","/images/partner/Machhapuchhre-bank-removebg-preview\ 1.png","/images/partner/NIC-logo 1.png","/images/partner/oliz_store.png","/images/partner/the_next_education_consultancy.png","/images/partner/aaryan_school_of_engineering.png"]
     }
 ];
 

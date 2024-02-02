@@ -256,6 +256,67 @@ export const _Partners = [
         name : "SIKAUNE",
         image : "/images/partner/sikaune.png"
     },
+    {
+        rank : "Community Partner",
+        name : "AIRTECH RELIABILITY MATTERS",
+        image : "/images/partner/airtech.png"
+    },
+    {
+        rank : "Community Partner",
+        name : "AMSYS INNOVATIVE SOLUTIONS",
+        image : "/images/partner/amsys.png"
+    },
+    {
+        rank : "Community Partner",
+        name : "BONUM CHA",
+        image : "/images/partner/bonum_cha.png"
+    },
+    {
+        rank : "Community Partner",
+        name : "CLAMPHOOK",
+        image : "/images/partner/clamphook.png"
+    },
+    {
+        rank : "Community Partner",
+        name : "FRENZIE FRIES",
+        image : "/images/partner/frenzie_fries.png"
+    },
+    {
+        rank : "Community Partner",
+        name : "JANAKITECH",
+        image : "/images/partner/janakitech_logo.png"
+    },
+    {
+        rank : "Community Partner",
+        name : "KHALTI",
+        image : "/images/partner/Khalti_Logo_Color\ 1.png"
+    },
+    {
+        rank : "Community Partner",
+        name : "MACHHAPUCHCHHRE BANK",
+        image : "/images/partner/Machhapuchhre-bank-removebg-preview\ 1.png"
+    },
+    {
+        rank : "Community Partner",
+        name : "NIC ASIA",
+        image : "/images/partner/NIC-logo 1.png"
+    },
+
+    {
+        rank : "Community Partner",
+        name : "OLIZ STORE",
+        image : "/images/partner/oliz_store.png"
+    },
+    {
+        rank : "Community Partner",
+        name : "THE NEXT EDUCATION CONSULTANCY",
+        image : "/images/partner/the_next_education_consultancy.png"
+    },
+    {
+        rank : "Community Partner",
+        name : "ARYAN SCHOOL OF ENGINEERING & MANAGEMENT",
+        image : "/images/partner/aaryan_school_of_engineering.png"
+    },
 
 ];
 
